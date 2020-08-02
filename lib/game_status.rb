@@ -43,6 +43,5 @@ def winner(board)
  if won?(board)
   return board[first_index]
 else
-  false 
 end
 end
