@@ -40,7 +40,7 @@ end
 
 def winner(board)
  if won?(board) first_index = won?(board)[0] 
-  return board[first_index.to_i]
+  return board[first_index]
 end
 end
 
